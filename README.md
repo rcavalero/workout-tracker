@@ -1,34 +1,23 @@
-# workout-tracker
+# Workout Tracker
 
-# Unit 17 Nosql Homework: Workout Tracker
+Workout Tracker is a web application that allows the user to keep track of their workouts.  
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+The application provides the following functionality:
+  1. Ability to track all exercises for a workout.
+  2. Allows user to add exercises to the last workout or create a new workout.
+  3. Provides Dashboard that displays charts for Total Duration and Pounds Lifted for the previous seven days along with the exercises
+     were performed.
 
-## User Story
+The Workout Tracker application can be found here: [Workout Tracker](https://rcworkouts.herokuapp.com/) 
 
-* As a user, I want to be able to view create and track daily workouts. 
+The Home Page for this application is shown here:
 
-I want to be able to log multiple exercises in a workout on a given day. 
-I should also be able to track the
-   name, type, weight, sets, reps, and duration of exercise. 
-   If the exercise is a cardio exercise, I should be able to track my distance traveled.
+![Workout Tracker](/public/workout-tracker.png)
 
-## Acceptance Criteria
+## Built With
 
-When the user loads the page, they should be given the option to create a new workout, or continue with their last workout.
+* This application uses MongoDB and the following NPM modules - Express, Mongoose & Morgan.
 
-The user should be able to:
+## Authors
 
-  * Add exercises to a previous workout plan.
-
-  * Add new exercises to a new workout plan.
-
-  * View multiple the combined weight of multiple exercises on the `stats` page.
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL to the deployed application
-
-* The URL to the Github repository
+* **Robert Cavalero** - *Initial work* - [RCavalero](https://github.com/rcavalero)
